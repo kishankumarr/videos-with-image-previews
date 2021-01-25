@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  width: 80%;
+  margin: 20px;
+  border: 1px solid magenta;
+  border-radius: 5px;
+}
+
+.videoplayer{
+  width: 25%;
+  height: 80%;
+}
+
+.thumbnails{
+  display :inline;
+}
+
+.thumbnails>img {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 10px;;
+  cursor: pointer;
+}
+
+.active {
+  border: 4px magenta solid;
+  border-radius: 5px;
+}
+
+button{
+  width:100px;
+  height:50px;
+  margin-bottom: 100px;
+  background-color:skyblue;
+}
